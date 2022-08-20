@@ -10,7 +10,9 @@ function App() {
 
   const handleSubmit =(e) =>{
     e.prevent.Default();
-    console.log('hello');
+    let colors = new Values(color).all(10);
+    console.log(colors);
+    
   }
 
   return (
@@ -34,4 +36,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
